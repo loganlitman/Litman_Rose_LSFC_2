@@ -195,11 +195,16 @@ a {
   text-decoration: none;
 }
 
+h5 a:hover, a:active {
+	text-decoration: none;
+	color: #3c3c3c;
+}
 
 a:hover, a:active {
 	text-decoration: underline;
-	color: #d29f2b;
+	color: #d29f28;
 }
+
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 400;
 	color: #FFF;
@@ -227,6 +232,7 @@ h5 {
 	font-size: 18px;
 	margin-bottom:15px;
 }
+
 h6 {
 	font-size: 16px;
 	margin-bottom:10px;
@@ -578,7 +584,7 @@ section.spacer blockquote cite {
 }
 
 #filters ul li a:hover h5, #filters ul li a.active h5 {
-	color:#d7b500;
+	color:#d29f28;
 }
 
 
@@ -1075,20 +1081,20 @@ footer ul.social-networks li i.icon-bgdark {
 
 
 footer ul.social-networks li a i.icon-instagram:hover {
-	background: #ba7b3d;
+	background: #d29f28;
 	color: #fff;
 }
 
 footer ul.social-networks li a i.icon-twitter:hover {
-	background: #5ad2eb;
+	background: #d29f28;
 	color: #fff;
 }
-footer ul.social-networks li a i.icon-dribbble:hover {
-	background: #f57b71;
+footer ul.social-networks li a i.icon-linkedin:hover {
+	background: #d29f28;
 	color: #fff;
 }
-footer ul.social-networks li a i.icon-pinterest:hover {
-	background: #d84848;
+footer ul.social-networks li a i.icon-facebook:hover {
+	background: #d29f28;
 	color: #fff;
 }
 
@@ -1414,7 +1420,7 @@ i.icon-white {
 
 .btn-primary:active,
 .btn-primary.active {
-  background-color: #d29f2b \9;
+  background-color: #d29f2b;
 }
 
 .btn-warning {
@@ -1440,7 +1446,7 @@ i.icon-white {
 
 .btn-warning:active,
 .btn-warning.active {
-  background: #d29f2b \9;
+  background: #d29f2b;
 }
 
 
@@ -1467,7 +1473,7 @@ i.icon-white {
 
 .btn-danger:active,
 .btn-danger.active {
-  background: #db5f58 \9;
+  background: #d29f28;
 }
 
 .btn-success {
@@ -1487,20 +1493,20 @@ i.icon-white {
 .btn-success.disabled,
 .btn-success[disabled] {
   color: #ffffff;
-  background: #55ba93;
-  *background: #55ba93;
+  background: #d29f28;
+  *background: #d29f28;
 }
 
 .btn-success:active,
 .btn-success.active {
-  background: #55ba93 \9;
+  background: #d29f28;
 }
 
 .btn-info {
   color: #ffffff;
   text-shadow: none;
-  background-color: #4dbdc6;
-  *background-color: #4dbdc6;
+  background-color: #d29f28;
+  *background-color: #d29f28;
   background-image: none;
   border-color: none;
   filter:none;
@@ -1513,13 +1519,13 @@ i.icon-white {
 .btn-info.disabled,
 .btn-info[disabled] {
   color: #ffffff;
-  background: #6a9ad0;
-  *background: #6a9ad0;
+  background: #d29f28;
+  *background: #d29f28;
 }
 
 .btn-info:active,
 .btn-info.active {
-  background: #6a9ad0 \9;
+  background: #d29f28;
 }
 
 .btn-inverse {

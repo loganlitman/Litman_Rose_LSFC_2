@@ -6,13 +6,13 @@ background:#e06d5e;
 }
 
 .navbar .brand a:hover {
-	color:#1BAC91;
+	color:#d29f28;
 }
 
 
 
 ul#menu-main > li > a:hover {
-	color: #1BAC91;
+	color: #d29f28;
 }
 
 
@@ -32,7 +32,7 @@ ul#menu-main > li > a:focus,ul#menu-main > li > a:active, ul#menu-main > li > a.
 }
 
 .btn.btn-theme {
-	background: #26c8aa !important;
+	background: #3c3c3c !important;
 }
 
 /* blog */
@@ -65,9 +65,9 @@ ul#menu-main > li > a:focus,ul#menu-main > li > a:active, ul#menu-main > li > a.
 
 /* icon */
 i.icon-bgdark:hover {
-	background: #26c8aa;
+	background: #3c3c3c;
 }
 
 i.icon-bgdark.active {
-	background: #e06d5e;
+	background: #d29f28;
 }
